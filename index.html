@@ -1,17 +1,25 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Color Palette Generator</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <h1>🎨 Color Palette Generator</h1>
-  <div id="palette"></div>
-  <button id="generateBtn">Generate New Palette</button>
-  <div id="toast">Copied to clipboard!</div>
-
+  <header>
+    <h2>🎨 Color Palette Generator</h2>
+  </header>
+  <main>
+    <div id="palette" class="palette"></div>
+    <button id="generateBtn">Generate Palette</button>
+    <p id="feedback" class="feedback"></p>
+  </main>
+  <footer>
+    <small>By Aaditya &bull; Hex codes copied on click.</small>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
+
